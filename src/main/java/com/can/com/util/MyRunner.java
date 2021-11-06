@@ -42,8 +42,6 @@ public class MyRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-    	/**
-    	 * 
     	rolService.save(new Rol(RolName.ROL_ADMIN));
     	rolService.save(new Rol(RolName.ROL_CENTER));
     	rolService.save(new Rol(RolName.ROL_USER));
@@ -91,6 +89,5 @@ public class MyRunner implements CommandLineRunner {
     	centerTest.setPets(petsCenterTest);
     	
     	centerService.save(centerTest);
-    	 */
     }
 }
